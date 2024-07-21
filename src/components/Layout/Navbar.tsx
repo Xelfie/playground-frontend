@@ -1,9 +1,14 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => (
-  <div className="w-screen h-16 bg-slate-700 border-b-2 border-rose-200 flex justify-end font-['Courier_New']">
-    <div className="h-full p-8 flex justify-center items-center text-rose-200 ">
+  <nav className="flex justify-end w-screen h-16 bg-slate-700 border-b-2 border-rose-200">
+    <Link
+      to="/"
+      className="flex justify-center items-center h-full p-8 text-rose-200 font-['Courier_New']"
+    >
       Playground
-    </div>
-  </div>
+    </Link>
+  </nav>
 );
 
 export default Navbar;
