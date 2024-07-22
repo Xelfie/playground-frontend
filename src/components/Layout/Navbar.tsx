@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => (
-  <nav className="flex justify-end w-screen h-16 bg-slate-700 border-b-2 border-rose-200">
+  <nav className="flex h-16 w-full justify-end border-b border-rose-200 bg-slate-800">
     <Link
       to="/"
-      className="flex justify-center items-center h-full p-8 text-rose-200 font-['Courier_New']"
+      className="flex h-full items-center justify-center p-8 font-['Courier_New'] text-rose-200"
     >
       Playground
     </Link>
